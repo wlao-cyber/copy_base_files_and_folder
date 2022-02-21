@@ -9,7 +9,7 @@ If the destination path does NOT already exist, and the destination path is vali
 
 Both local and long network paths should work.
 
-The program harnesses Windows' built-in Robocopy tool to perform the copying. The following Robocoopy settings were applied to retain all data, attributes, and time stamps: 
+The program harnesses Windows' built-in Robocopy tool to perform the copying. The following Robocopy settings were applied to retain all data, attributes, and time stamps: 
 /COPY:DAT
 
 ## Authors
