@@ -23,6 +23,9 @@ The program harnesses Windows' built-in Robocopy tool to perform the copying. Th
     - Cells with just spaces (whitespace) will be reported as empty rows.
 - Save Excel document with your changes prior to running EXE.
 - Cells not detected as valid paths should be reported in results at the end of execution.
+- The program autocorrects any folders/files that have leading or trailing whitespace, which are not allowed in Windows.
+    - Folders cannot have leading or trailing whitespace
+    - The file name should not have leading whitespace before the file name or trailing whitespace after the extension.
 - Just like with Windows Command Prompt, if you left-click the console Window, it pauses Robocopy.
     - To resume, you can right-click or press ENTER.
 - The program tries to identify invalid paths and will note them in the console window.
