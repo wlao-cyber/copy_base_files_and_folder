@@ -31,7 +31,7 @@ The program harnesses Windows' built-in Robocopy tool to perform the copying. Th
 - The program tries to identify invalid paths and will note them in the console window.
 - A size mismatch errors CSV log will be generated if any size mismatches from copying are found.
 
-## Installation and How to Use
+## How to Use
 
 - Download the EXE and XLSX pair of files locally and keep them in the same folder.
 - Don't change the Excel XLSX Name. Otherwise, the program will not work.
